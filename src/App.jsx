@@ -1,11 +1,8 @@
-
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import AllHurricanes from './components/AllHurricanes';
-
+import JavaEduRouter from './components/nav/JavaEduRouter'
 
 function App() {
-  return <AllHurricanes/>
+  return <JavaEduRouter/>
 }
 
 export default App
