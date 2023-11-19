@@ -10,7 +10,7 @@ export default function BadgerBudsRouter() {
         <Routes>
             <Route path="/" element={<FirstComponent />}>
                 <Route index element={<JavaEduLanding />} />
-                <Route path="sign-on" element={<JavaEduSignOn />} />
+                <Route path="art" element={<JavaEduSignOn />} />
                 <Route path="*" element={<JavaEduNoMatch />} />
             </Route>
         </Routes>
