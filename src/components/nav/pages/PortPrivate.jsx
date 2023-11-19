@@ -1,6 +1,6 @@
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
 
-export default function JavaEduSignOn(props) {
+export default function PortPrivate(props) {
     return <div className={"sign-in-container"}>
         <Row>
             <Col></Col>

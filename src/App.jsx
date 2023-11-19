@@ -1,8 +1,8 @@
 import './App.css'
-import JavaEduRouter from './components/nav/JavaEduRouter'
+import PortRouter from './components/nav/PortRouter'
 
 function App() {
-  return <JavaEduRouter/>
+  return <PortRouter/>
 }
 
 export default App

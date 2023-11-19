@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function JavaEduNoMatch(props) {
+export default function PortNoMatch(props) {
 
     return (
         <div>
