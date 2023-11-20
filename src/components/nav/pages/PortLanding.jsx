@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 export default function PortLanding(props) {
 
@@ -8,7 +8,7 @@ export default function PortLanding(props) {
         <Container fluid={true}>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>Pellentesque at felis urna. In enim diam, tincidunt eget leo vitae, consectetur porta massa. Fusce elementum sapien vel vehicula posuere.</p>
-                    <h3>The Java Education Project...</h3>
+                    <h3>Lorem Ipsum is the best...</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at felis urna. In enim diam, tincidunt eget leo vitae, consectetur porta massa. Fusce elementum sapien vel vehicula posuere. Pellentesque vitae ornare nunc, et rhoncus sapien. Nam vitae feugiat lectus, sed commodo justo. Curabitur facilisis auctor ex, eu luctus lorem tristique sed. Aliquam tortor magna, dictum ut magna et, suscipit aliquet ipsum. Cras at ultrices turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel mauris vel lectus consectetur aliquet ac in nulla. Aenean posuere, sem et imperdiet ultrices, lectus est finibus mauris, at hendrerit mi metus vel mi.
 
 Ut pulvinar, ex in tempus fermentum, lacus ligula ornare sem, in convallis mauris turpis nec massa. Aenean quis diam scelerisque, porta nulla id, euismod quam. Mauris scelerisque elit vestibulum elementum euismod. Donec in arcu sed est bibendum condimentum. Suspendisse semper eros orci, sed accumsan libero ornare id. Morbi dui ligula, maximus quis scelerisque sed, vehicula auctor odio. Donec ornare arcu ac accumsan mollis. Etiam laoreet porttitor ante, in faucibus nisi volutpat at. Curabitur venenatis lacus non nibh tincidunt, sed venenatis risus aliquet. Pellentesque a velit tristique, egestas ipsum non, tincidunt massa. Vestibulum diam urna, pretium vitae lobortis sit amet, dapibus ac arcu.
