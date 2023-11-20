@@ -8,6 +8,7 @@ import PortGames from "./pages/PortGames";
 import PortArt from "./pages/PortArt";
 import PortCode from "./pages/PortCode";
 import PortResume from "./pages/PortResume";
+import PortWordRush from "./pages/PortWordRush";
 
 export default function BadgerBudsRouter() {
     return <BrowserRouter>
@@ -18,6 +19,7 @@ export default function BadgerBudsRouter() {
                 <Route path="code" element={<PortCode />} />
                 <Route path="art" element={<PortArt />} />
                 <Route path="games" element={<PortGames />} />
+                <Route path="games/word_rush" element={<PortWordRush />} />
                 <Route path="private" element={<PortPrivate />} />
                 <Route path="*" element={<PortNoMatch />} />
             </Route>
