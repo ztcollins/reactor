@@ -13,7 +13,7 @@ export default function PortGames(props) {
             <Container>
                 <p>Word rush is a game developed in P5JS. Play it <a href="games/word_rush">here</a>.</p>
                 <p>This game is about typing the randomly chosen word before the time runs out. The player earns score for each word typed out before the bar fills up. As the player's score increases, the bar will fill up faster. This continues until it is virtually impossible to type the word. What score can you get?</p>
-                <img className={"ref-images"} src={"/word_rush_ref.png"}></img>
+                <img className={"ref-images"} src={"/word_rush.png"}></img>
             </Container>
         </Card>
         
@@ -25,7 +25,7 @@ export default function PortGames(props) {
             <Container>
                 <p>Halloween maze is a game developed in bitsy. Play it <a href="games/halloween_maze">here</a>.</p>
                 <p>This is an experimental game created in bitsy 3D. Bitsy 3D is a modified version of the original Bitsy. In this game, the player must choose whether they want to collect tricks or treats. Depending on what the player collects, they recieve an ending based on it.</p>
-                <img className={"ref-images"} src={"/halloween_maze_ref.png"}></img>
+                <img className={"ref-images"} src={"/halloween_maze.png"}></img>
             </Container>
             
         </Card>
@@ -35,10 +35,10 @@ export default function PortGames(props) {
 
         <Card>
             <h4>Santa Sliding</h4>
-            <Container fluid={true}>
+            <Container>
                 <p>Santa sliding is a game developed in puzzlescript. Play it <a href="games/santa_sliding">here</a>.</p>
                 <p>In this game, the player controls santa and must deliver the gifts for christmas. The player is tasked with moving across the grid system and <b>sliding</b> to reach the gifts and bring them back to his sleigh.</p>
-                <img className={"ref-images"} src={"/santa_sliding_ref.png"}></img>
+                <img className={"ref-images"} src={"/santa_sliding.png"}></img>
             </Container>
         </Card>
         
