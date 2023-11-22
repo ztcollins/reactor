@@ -39,13 +39,13 @@ export default function PortArt(props) {
             <Container>
             <h5>Modern Vanitas (Maya)</h5>
                 <p>This is a scene I created in Maya that is meant to be my interpretation of a modern Vanitas painting.</p>
-                <img style={{height: 800, width: 800}} src={"/collins_zachary_ass1_v2.jpg"}></img>
+                <img style={{height: 800, width: 800, borderRadius: 20}} src={"/collins_zachary_ass1_v2.jpg"}></img>
             </Container>
             <br></br>
             <Container>
             <h5>Reality (Rhino)</h5>
                 <p>This is a scene I created in Rhino that is meant to be an ideal reality.</p>
-                <img style={{height: 800, width: 800}} src={"/CollinsZachary_Reality.jpg"}></img>
+                <img style={{height: 800, width: 800, borderRadius: 20}} src={"/CollinsZachary_Reality.jpg"}></img>
             </Container>
 
         </Card>
@@ -58,7 +58,7 @@ export default function PortArt(props) {
             <Container>
             <h5>Altered</h5>
                 <p>This is an image I created in Adobe photoshop that is meant to be an altered version of history.</p>
-                <img style={{height: 800, width: 800}} src={"/Altered_Image.jpg"}></img>
+                <img style={{height: 800, width: 800, borderRadius: 20}} src={"/Altered_Image.jpg"}></img>
             </Container>
         </Card>
     </div>
