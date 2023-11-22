@@ -2,7 +2,7 @@ import { Container, Card } from "react-bootstrap";
 
 export default function PortCode(props) {
 
-    return <div>
+    return <div style={{textAlign: "center"}}>
         <h1>Code</h1>
         <p>Check out my github <a href={"https://github.com/ztcollins"}>here</a>.</p>
         <br/>
@@ -13,7 +13,7 @@ export default function PortCode(props) {
                 <p>Word rush is a game developed in P5JS. Play it <a href="games/word_rush">here</a>.</p>
                 <p>I developed this game using Javascript and the base functions provided by p5JS.</p>
                 <p><b>Javascript</b></p>
-                <img className={"ref-images"} src={"/word_rush_ref.png"}></img>
+                <img className={"ref-images"} src={"/word_rush.png"}></img>
             </Container>
         </Card>
 

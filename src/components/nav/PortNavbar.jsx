@@ -15,7 +15,6 @@ export default function BadgerBudsNavbar(props) {
                     <Nav.Link as={Link} to="/code">Code</Nav.Link>
                     <Nav.Link as={Link} to="/art">Art</Nav.Link>
                     <Nav.Link as={Link} to="/games">Games</Nav.Link>
-                    <Nav.Link as={Link} to="/private">Private</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
