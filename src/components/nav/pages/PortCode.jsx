@@ -4,6 +4,7 @@ export default function PortCode(props) {
 
     return <div style={{textAlign: "center"}}>
         <h1>Code</h1>
+        <br/>
         <p>Check out my github <a href={"https://github.com/ztcollins"}>here</a>.</p>
         <br/>
 

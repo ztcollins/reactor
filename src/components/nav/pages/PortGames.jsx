@@ -5,8 +5,8 @@ export default function PortGames(props) {
     return <div style={{textAlign: "center"}}>
         <h1>Games</h1>
         <br/>
-
-        <p>All games are playable on browser and can be played on this website.</p>
+        <p><i>All games are playable on browser and can be played on this website.</i></p>
+        <br/>
 
         <Card>
             <h4>Word Rush</h4>
