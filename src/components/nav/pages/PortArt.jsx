@@ -73,7 +73,9 @@ export default function PortArt(props) {
                 <h5>Old Grave</h5>
                 <p>This is a creepy animation I created in Maya.</p>
                 <div className={"video-container"}>
-                    <iframe src="https://uwmadison.app.box.com/embed/s/gc9fp9r11jehvq8a3b8nqthkfgxgudj5?sortColumn=date" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+                    <video loop controls muted>
+                        <source src={"https://uwmadison.box.com/shared/static/gc9fp9r11jehvq8a3b8nqthkfgxgudj5.mp4"} type="video/mp4" />
+                    </video>
                 </div>
             </Container>
             <br></br>
@@ -81,7 +83,9 @@ export default function PortArt(props) {
                 <h5>Plant Timelapse</h5>
                 <p>This is an animation of a plant decaying that I created in Maya.</p>
                 <div className={"video-container"}>
-                    <iframe src="https://uwmadison.app.box.com/embed/s/qun7rf4loh4cgny01uavwobpccf5i1e1?sortColumn=date" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+                    <video loop controls muted>
+                        <source src={"https://uwmadison.box.com/shared/static/qun7rf4loh4cgny01uavwobpccf5i1e1.mp4"} type="video/mp4" />
+                    </video>
                 </div>
                 
             </Container>
