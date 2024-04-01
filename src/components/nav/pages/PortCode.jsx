@@ -13,8 +13,11 @@ export default function PortCode(props) {
             <Container>
                 <p>Word rush is a game developed in P5JS. Play it <a href="games/word_rush">here</a>.</p>
                 <p>I developed this game using Javascript and the base functions provided by p5JS.</p>
-                <p><b>Javascript</b></p>
-                <div className={"video-container"}>
+
+                <p><b>Technologies: </b>Javascript</p>
+                <p><b>Concepts: </b>Inputs, UIs, Graphics, APIs</p>
+
+                <div className={"image-container"}>
                     <img src={"/word_rush.png"}></img>
                 </div>
                 
@@ -26,9 +29,12 @@ export default function PortCode(props) {
         <Card>
             <h4>Data structures & algorithms</h4>
             <Container>
-                <p>In CS400, I worked on a team of 4 to create 3 projects over the semester. We swapped roles for the frontend, backend, data, and owner.</p>
-                <p><b>Java</b></p>
-                <div className={"video-container"}>
+                <p>In CS400, I worked on a team of 4 to create three projects over the semester. We swapped roles for the frontend, backend, data, and owner.</p>
+                
+                <p><b>Technologies: </b>Java, Git</p>
+                <p><b>Concepts: </b>Software Development, Red-Black Trees, HashTables, Searching Algorithms</p>
+
+                <div className={"image-container"}>
                     <img src={"/cs400.png"}></img>
                 </div>
             </Container>
@@ -37,22 +43,26 @@ export default function PortCode(props) {
         <br/>
 
         <Card>
-            <h4>Java Education Tool (WIP)</h4>
+            <h4>Java Education Tool</h4>
             <Container>
-                <p>In CS506, I am working on a team of 6 to create a project over the semester. We are using Agile methodology to help facilitate the coding process. We are meeting with a client in order to create user stories such that we meet the requirements set by the client.</p>
+                <p>In CS506, I worked on a team of 6 to create a fullstack project over the semester. We used the Agile methodology to help facilitate the coding process. We met with a client in order to create user stories. The project is not complete, but students are able to upload code to navigate a maze programatically.</p>
                 
-                <p><b>React</b></p>
-                <p><b>MySQL</b></p>
-                <p><b>Java Spring Boot</b></p>
-                <p><b>APIs</b></p>
+                <p><b>Technologies: </b>Java, Spring Boot, Maven, React, MySQL, GitLab, Bootstrap, HTML, CSS</p>
+                <p><b>Concepts: </b>Software Development Life Cycle, Fullstack Development, APIs, 3rd Party Libraries, Runtime Compilation, React Graphics, User Management</p>
 
-                <h6>Google SSO sign in:</h6>
-                <div className={"video-container"}>
+                <br></br>
+                <br></br>
+
+                <b>Google SSO sign in:</b>
+                <div className={"image-container"}>
                     <img src={"/edu_google.png"}></img>
                 </div>
+
+                <br></br>
+                <br></br>
             
-                <h6 style={{marginTop: 30}}>Maze canvas:</h6>
-                <div className={"video-container"}>
+                <b style={{marginTop: 100}}>Maze canvas:</b>
+                <div className={"image-container"}>
                     <img src={"/edu_maze.png"}></img>
                 </div>
                 
