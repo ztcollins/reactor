@@ -12,7 +12,7 @@ export default function PortCode(props) {
             <h4>Word Rush</h4>
             <Container>
                 <p>Word rush is a game developed in P5JS. Play it <a href="games/word_rush">here</a>.</p>
-                <p>I developed this game using Javascript and the base functions provided by p5JS.</p>
+                <p>I developed this game using Javascript and the base functions provided by P5JS.</p>
 
                 <p><b>Technologies: </b>Javascript</p>
                 <p><b>Concepts: </b>Inputs, UIs, Graphics, APIs</p>
