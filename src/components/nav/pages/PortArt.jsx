@@ -42,7 +42,7 @@ export default function PortArt(props) {
             <h5>Modern Vanitas (Maya)</h5>
                 <p>This is a scene I created in Maya that is meant to be my interpretation of a modern Vanitas painting.</p>
                 <p><a href="/collins_zachary_ass1_v2.jpg" target="_blank">View Full</a></p>
-                <div className={"video-container"}>
+                <div className={"image-container"}>
                     <img src={"/collins_zachary_ass1_v2.jpg"}></img>
                 </div>
             </Container>
@@ -51,7 +51,7 @@ export default function PortArt(props) {
             <h5>Reality (Rhino)</h5>
                 <p>This is a scene I created in Rhino that is meant to be an ideal reality.</p>
                 <p><a href="/CollinsZachary_Reality.jpg" target="_blank">View Full</a></p>
-                <div className={"video-container"}>
+                <div className={"image-container"}>
                     <img src={"/CollinsZachary_Reality.jpg"}></img>
                 </div>
             </Container>
@@ -67,7 +67,7 @@ export default function PortArt(props) {
             <h5>Altered</h5>
                 <p>This is an image I created in Adobe photoshop that is meant to be an altered version of history.</p>
                 <p><a href="/Altered_Image.jpg" target="_blank">View Full</a></p>
-                <div className={"video-container"}>
+                <div className={"image-container"}>
                     <img src={"/Altered_Image.jpg"}></img>
                 </div>
             </Container>
