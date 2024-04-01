@@ -3,7 +3,7 @@ import { Container, Card } from "react-bootstrap";
 export default function PortCode(props) {
 
     return <div style={{textAlign: "center"}}>
-        <h1>Code</h1>
+        <h1>Coding Projects</h1>
         <br/>
         <p>Check out my github <a href={"https://github.com/ztcollins"}>here</a>.</p>
         <br/>
@@ -66,6 +66,23 @@ export default function PortCode(props) {
                     <img src={"/edu_maze.png"}></img>
                 </div>
                 
+            </Container>
+        </Card>
+
+        <br/>
+
+        <Card>
+            <h4>Airline Analysis</h4>
+            <Container>
+                <p>This project aimed to determine which airline amenities and airlines companies correlated with the most positive reviews.</p>
+                <p>View the project analysis <a href="/airlines.html" target="_blank">here</a></p>
+                
+                <p><b>Technologies: </b>GAMS, Python, Pandas, MATLAB</p>
+                <p><b>Concepts: </b>Data Gathering & Cleaning, Optimization Algorithms, Data & Algorithm Interpretation, Visual Displays of Data</p>
+
+                <div className={"image-container"}>
+                    <img src={"/airlines_graph.png"}></img>
+                </div>
             </Container>
         </Card>
     </div>
