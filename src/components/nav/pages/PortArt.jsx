@@ -3,9 +3,7 @@ import { Container, Card } from "react-bootstrap";
 export default function PortArt(props) {
 
     return <div style={{textAlign: "center"}}>
-        <h1>Art</h1>
-        <br/>
-        <p><i>Distortion caused by the webpage layout. View the full image for no distortion.</i></p>
+        <h1>Art Projects</h1>
         <br/>
         <Card>
             <h3>Adobe After Effects Animations</h3>
@@ -31,12 +29,20 @@ export default function PortArt(props) {
                 
             </Container>
         </Card>
-        
 
         <br/>
 
         <Card>
-            <h4>3D modelling</h4>
+            <h4>3D Modelling</h4>
+            <br></br>
+            <Container>
+            <h5>Character Sheet (Maya)</h5>
+                <p>This is a scene I created in Maya that has two characters I created.</p>
+                <p><a href="/characterSheetFull.png" target="_blank">View Full</a></p>
+                <div className={"image-container"}>
+                    <img src={"/characterSheetFull.png"}></img>
+                </div>
+            </Container>
             <br></br>
             <Container>
             <h5>Modern Vanitas (Maya)</h5>
@@ -59,6 +65,29 @@ export default function PortArt(props) {
         </Card>
 
         <br/>
+
+        <Card>
+            <h3>3D Animations (Maya)</h3>
+            <br></br>
+            <Container>
+                <h5>Old Grave</h5>
+                <p>This is a creepy animation I created in Maya.</p>
+                <div className={"video-container"}>
+                    <iframe src="https://uwmadison.app.box.com/embed/s/gc9fp9r11jehvq8a3b8nqthkfgxgudj5?sortColumn=date" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+                </div>
+            </Container>
+            <br></br>
+            <Container>
+                <h5>Plant Timelapse</h5>
+                <p>This is an animation of a plant decaying that I created in Maya.</p>
+                <div className={"video-container"}>
+                    <iframe src="https://uwmadison.app.box.com/embed/s/qun7rf4loh4cgny01uavwobpccf5i1e1?sortColumn=date" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+                </div>
+                
+            </Container>
+        </Card>
+
+        <br></br>
 
         <Card>
             <h4>Adobe Photoshop</h4>

@@ -12,9 +12,9 @@ export default function BadgerBudsNavbar(props) {
             <Navbar.Collapse id="responsive-navbar-nav" className="me-auto">
                 <Nav>
                     <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
-                    <Nav.Link as={Link} to="/code">Code</Nav.Link>
-                    <Nav.Link as={Link} to="/art">Art</Nav.Link>
-                    <Nav.Link as={Link} to="/games">Games</Nav.Link>
+                    <Nav.Link as={Link} to="/code">Coding Projects</Nav.Link>
+                    <Nav.Link as={Link} to="/art">Art Projects</Nav.Link>
+                    <Nav.Link as={Link} to="/games">Games Developed</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
